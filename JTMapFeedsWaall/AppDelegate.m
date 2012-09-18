@@ -7,10 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "JTRootViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize navigationController = _navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -18,6 +20,14 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    JTRootViewController * jtRootViewController = [[JTRootViewController alloc]init];
+
+    self.navigationController = [[UINavigationController alloc]initWithRootViewController:jtRootViewController];
+    self.navigationController.navigationBarHidden = YES;
+    [self.window addSubview:self.navigationController.view];
+//    [self.window addSubview:self.tabBar.view];
+    
     return YES;
 }
 

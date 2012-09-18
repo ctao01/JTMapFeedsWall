@@ -23,6 +23,22 @@
 		7E2A86D316079320002A57CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2A86D216079320002A57CB /* SystemConfiguration.framework */; };
 		7E2A86D516079328002A57CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2A86D416079328002A57CB /* MobileCoreServices.framework */; };
 		7E2A86D716079363002A57CB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E2A86D616079363002A57CB /* Security.framework */; };
+		7E2A86DA1607BC24002A57CB /* JTUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A86D91607BC24002A57CB /* JTUserViewController.m */; };
+		7E2A86DD1607BC6A002A57CB /* JTFeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A86DC1607BC6A002A57CB /* JTFeedsViewController.m */; };
+		7E2A86E31607BC95002A57CB /* JTMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A86E21607BC95002A57CB /* JTMapViewController.m */; };
+		7E2A86E61607BCCC002A57CB /* JTGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A86E51607BCCC002A57CB /* JTGalleryViewController.m */; };
+		7E2A86E91607BCF1002A57CB /* JTSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A86E81607BCF1002A57CB /* JTSearchViewController.m */; };
+		7E2A86EC1607BD2C002A57CB /* JTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A86EB1607BD2C002A57CB /* JTTabBarController.m */; };
+		7E2A87111607D283002A57CB /* JTCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A87101607D21E002A57CB /* JTCustomNavigationBar.m */; };
+		7E2A87151607D316002A57CB /* JTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A87141607D316002A57CB /* JTNavigationController.m */; };
+		7E2A87201607DC08002A57CB /* InstagramIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A87171607DC08002A57CB /* InstagramIcon.png */; };
+		7E2A87211607DC08002A57CB /* InstagramIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A87181607DC08002A57CB /* InstagramIcon@2x.png */; };
+		7E2A87221607DC08002A57CB /* navigationBarBackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A87191607DC08002A57CB /* navigationBarBackButton.png */; };
+		7E2A87231607DC08002A57CB /* navigationBarBackButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A871A1607DC08002A57CB /* navigationBarBackButton2.png */; };
+		7E2A87241607DC08002A57CB /* navigationBarBackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A871B1607DC08002A57CB /* navigationBarBackButton@2x.png */; };
+		7E2A872B1607FB7E002A57CB /* JT_navigation_bar_saddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A87291607FB7E002A57CB /* JT_navigation_bar_saddle.png */; };
+		7E2A872C1607FB7E002A57CB /* JT_navigation_bar_saddle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2A872A1607FB7E002A57CB /* JT_navigation_bar_saddle@2x.png */; };
+		7E2A875016081B15002A57CB /* JTRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A874F16081B15002A57CB /* JTRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +62,31 @@
 		7E2A86D216079320002A57CB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7E2A86D416079328002A57CB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		7E2A86D616079363002A57CB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7E2A86D81607BC24002A57CB /* JTUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTUserViewController.h; path = Classes/JTUserViewController.h; sourceTree = "<group>"; };
+		7E2A86D91607BC24002A57CB /* JTUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTUserViewController.m; path = Classes/JTUserViewController.m; sourceTree = "<group>"; };
+		7E2A86DB1607BC6A002A57CB /* JTFeedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTFeedsViewController.h; path = Classes/JTFeedsViewController.h; sourceTree = "<group>"; };
+		7E2A86DC1607BC6A002A57CB /* JTFeedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTFeedsViewController.m; path = Classes/JTFeedsViewController.m; sourceTree = "<group>"; };
+		7E2A86E11607BC95002A57CB /* JTMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTMapViewController.h; path = Classes/JTMapViewController.h; sourceTree = "<group>"; };
+		7E2A86E21607BC95002A57CB /* JTMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTMapViewController.m; path = Classes/JTMapViewController.m; sourceTree = "<group>"; };
+		7E2A86E41607BCCC002A57CB /* JTGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTGalleryViewController.h; path = Classes/JTGalleryViewController.h; sourceTree = "<group>"; };
+		7E2A86E51607BCCC002A57CB /* JTGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTGalleryViewController.m; path = Classes/JTGalleryViewController.m; sourceTree = "<group>"; };
+		7E2A86E71607BCF1002A57CB /* JTSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTSearchViewController.h; path = Classes/JTSearchViewController.h; sourceTree = "<group>"; };
+		7E2A86E81607BCF1002A57CB /* JTSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTSearchViewController.m; path = Classes/JTSearchViewController.m; sourceTree = "<group>"; };
+		7E2A86EA1607BD2B002A57CB /* JTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTTabBarController.h; sourceTree = "<group>"; };
+		7E2A86EB1607BD2C002A57CB /* JTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTTabBarController.m; sourceTree = "<group>"; };
+		7E2A870F1607D21E002A57CB /* JTCustomNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTCustomNavigationBar.h; sourceTree = "<group>"; };
+		7E2A87101607D21E002A57CB /* JTCustomNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTCustomNavigationBar.m; sourceTree = "<group>"; };
+		7E2A87131607D316002A57CB /* JTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTNavigationController.h; path = Classes/JTNavigationController.h; sourceTree = "<group>"; };
+		7E2A87141607D316002A57CB /* JTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTNavigationController.m; path = Classes/JTNavigationController.m; sourceTree = "<group>"; };
+		7E2A87171607DC08002A57CB /* InstagramIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstagramIcon.png; sourceTree = "<group>"; };
+		7E2A87181607DC08002A57CB /* InstagramIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "InstagramIcon@2x.png"; sourceTree = "<group>"; };
+		7E2A87191607DC08002A57CB /* navigationBarBackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackButton.png; sourceTree = "<group>"; };
+		7E2A871A1607DC08002A57CB /* navigationBarBackButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navigationBarBackButton2.png; sourceTree = "<group>"; };
+		7E2A871B1607DC08002A57CB /* navigationBarBackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationBarBackButton@2x.png"; sourceTree = "<group>"; };
+		7E2A87291607FB7E002A57CB /* JT_navigation_bar_saddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JT_navigation_bar_saddle.png; sourceTree = "<group>"; };
+		7E2A872A1607FB7E002A57CB /* JT_navigation_bar_saddle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JT_navigation_bar_saddle@2x.png"; sourceTree = "<group>"; };
+		7E2A874E16081B15002A57CB /* JTRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JTRootViewController.h; path = Classes/JTRootViewController.h; sourceTree = "<group>"; };
+		7E2A874F16081B15002A57CB /* JTRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JTRootViewController.m; path = Classes/JTRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +116,7 @@
 		7E2A8696160791B8002A57CB = {
 			isa = PBXGroup;
 			children = (
-				7E2A86AB160791BA002A57CB /* JTMapFeedsWaall */,
+				7E2A86AB160791BA002A57CB /* JTMapFeedsWall */,
 				7E2A86A4160791B9002A57CB /* Frameworks */,
 				7E2A86A2160791B9002A57CB /* Products */,
 			);
@@ -109,13 +150,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7E2A86AB160791BA002A57CB /* JTMapFeedsWaall */ = {
+		7E2A86AB160791BA002A57CB /* JTMapFeedsWall */ = {
 			isa = PBXGroup;
 			children = (
 				7E2A86B4160791BA002A57CB /* AppDelegate.h */,
 				7E2A86B5160791BA002A57CB /* AppDelegate.m */,
+				7E2A87161607DBF8002A57CB /* Assets */,
+				7E2A872E16080819002A57CB /* Classes */,
 				7E2A86AC160791BA002A57CB /* Supporting Files */,
 			);
+			name = JTMapFeedsWall;
 			path = JTMapFeedsWaall;
 			sourceTree = "<group>";
 		};
@@ -128,6 +172,93 @@
 				7E2A86B3160791BA002A57CB /* JTMapFeedsWaall-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E2A87051607D13F002A57CB /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7E2A86D81607BC24002A57CB /* JTUserViewController.h */,
+				7E2A86D91607BC24002A57CB /* JTUserViewController.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		7E2A87061607D149002A57CB /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				7E2A86DB1607BC6A002A57CB /* JTFeedsViewController.h */,
+				7E2A86DC1607BC6A002A57CB /* JTFeedsViewController.m */,
+			);
+			name = Feeds;
+			sourceTree = "<group>";
+		};
+		7E2A87071607D150002A57CB /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				7E2A86E11607BC95002A57CB /* JTMapViewController.h */,
+				7E2A86E21607BC95002A57CB /* JTMapViewController.m */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		7E2A87081607D157002A57CB /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				7E2A86E41607BCCC002A57CB /* JTGalleryViewController.h */,
+				7E2A86E51607BCCC002A57CB /* JTGalleryViewController.m */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+		7E2A87091607D160002A57CB /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7E2A86E71607BCF1002A57CB /* JTSearchViewController.h */,
+				7E2A86E81607BCF1002A57CB /* JTSearchViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		7E2A87121607D2B2002A57CB /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				7E2A870F1607D21E002A57CB /* JTCustomNavigationBar.h */,
+				7E2A87101607D21E002A57CB /* JTCustomNavigationBar.m */,
+				7E2A87131607D316002A57CB /* JTNavigationController.h */,
+				7E2A87141607D316002A57CB /* JTNavigationController.m */,
+				7E2A874E16081B15002A57CB /* JTRootViewController.h */,
+				7E2A874F16081B15002A57CB /* JTRootViewController.m */,
+			);
+			name = NavigationController;
+			sourceTree = "<group>";
+		};
+		7E2A87161607DBF8002A57CB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7E2A87291607FB7E002A57CB /* JT_navigation_bar_saddle.png */,
+				7E2A872A1607FB7E002A57CB /* JT_navigation_bar_saddle@2x.png */,
+				7E2A87171607DC08002A57CB /* InstagramIcon.png */,
+				7E2A87181607DC08002A57CB /* InstagramIcon@2x.png */,
+				7E2A87191607DC08002A57CB /* navigationBarBackButton.png */,
+				7E2A871A1607DC08002A57CB /* navigationBarBackButton2.png */,
+				7E2A871B1607DC08002A57CB /* navigationBarBackButton@2x.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		7E2A872E16080819002A57CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7E2A86EA1607BD2B002A57CB /* JTTabBarController.h */,
+				7E2A86EB1607BD2C002A57CB /* JTTabBarController.m */,
+				7E2A87091607D160002A57CB /* Search */,
+				7E2A87081607D157002A57CB /* Gallery */,
+				7E2A87071607D150002A57CB /* Maps */,
+				7E2A87061607D149002A57CB /* Feeds */,
+				7E2A87051607D13F002A57CB /* User */,
+				7E2A87121607D2B2002A57CB /* NavigationController */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +312,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E2A86B0160791BA002A57CB /* InfoPlist.strings in Resources */,
+				7E2A87201607DC08002A57CB /* InstagramIcon.png in Resources */,
+				7E2A87211607DC08002A57CB /* InstagramIcon@2x.png in Resources */,
+				7E2A87221607DC08002A57CB /* navigationBarBackButton.png in Resources */,
+				7E2A87231607DC08002A57CB /* navigationBarBackButton2.png in Resources */,
+				7E2A87241607DC08002A57CB /* navigationBarBackButton@2x.png in Resources */,
+				7E2A872B1607FB7E002A57CB /* JT_navigation_bar_saddle.png in Resources */,
+				7E2A872C1607FB7E002A57CB /* JT_navigation_bar_saddle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +329,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2A87111607D283002A57CB /* JTCustomNavigationBar.m in Sources */,
 				7E2A86B2160791BA002A57CB /* main.m in Sources */,
 				7E2A86B6160791BA002A57CB /* AppDelegate.m in Sources */,
+				7E2A86DA1607BC24002A57CB /* JTUserViewController.m in Sources */,
+				7E2A86DD1607BC6A002A57CB /* JTFeedsViewController.m in Sources */,
+				7E2A86E31607BC95002A57CB /* JTMapViewController.m in Sources */,
+				7E2A86E61607BCCC002A57CB /* JTGalleryViewController.m in Sources */,
+				7E2A86E91607BCF1002A57CB /* JTSearchViewController.m in Sources */,
+				7E2A86EC1607BD2C002A57CB /* JTTabBarController.m in Sources */,
+				7E2A87151607D316002A57CB /* JTNavigationController.m in Sources */,
+				7E2A875016081B15002A57CB /* JTRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
